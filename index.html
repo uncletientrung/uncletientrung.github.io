@@ -1,12 +1,282 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website của tôi</title>
-</head>
-<body>
-    <h1>Chào mừng đến với website của tôi!</h1>
-    <p>Đây là trang web cá nhân trên GitHub Pages.</p>
-</body>
-</html>
+ 
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nguyễn Tiến Trung - CV</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+         
+    body{
+        background-color: #D5D5D5;
+        font-family: system-ui;
+    }
+    .container{
+        background-color: #E9E7EA;
+        width:1000px;
+        max-width: 100%;
+        margin:auto;
+        padding:50px;
+        box-shadow: 0 10px 50px #858585;
+        display: grid;
+       grid-template-columns: 35% 60%;
+       column-gap: 5%; 
+       row-gap: 30px;
+    }
+    
+    .avatar img{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .avatar{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .name{
+        padding-left: 30px;
+        border-left:1px solid #000;
+    }
+    .name h1{
+        font-weight: 300;
+        font-size: xxx-large;
+        margin:0px 0 5px ;
+    }
+    .name .specialize{
+        margin:0;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    .name .contact{
+        padding:0;
+        list-style: none;
+    }
+    .name .contact span{
+        display: inline-block;
+        background-color: #000;
+        width:20px;
+        height:20px;
+        color:#fff;
+        text-align: center;
+        border-radius: 50%;
+        font-size: small;
+        margin-right: 20px;
+    }
+    .name .contact li{
+        padding:5px 0;
+        transform: translate(-40px);
+        background-color: #E9E7EA;
+    }
+    .info ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: right;
+        line-height: 30px;
+    } 
+    
+    h2{
+        padding:0;
+        margin: 0 0 20px 0;
+    }
+    .intro{
+        padding-left: 30px;
+        border-left: 1px solid #000;
+        text-align: justify;
+    }
+    .experience{
+        text-align: right;
+    }
+    .experience h4{
+        margin:20px 0 10px;
+    }
+    .skills{
+        margin-top:  50px;
+    }
+    .experience ul{
+        padding:0;
+        margin: 0;
+    list-style: none;
+    }
+    .experience li{
+        padding:10px 0;
+    }
+    .project{
+        padding-left: 30px;
+        text-align: justify;
+        border-left: 1px solid #000;
+    }
+    .project h4{
+        margin:20px 0 10px;
+    }
+    .project .web{
+        color: #0c7373;
+        padding:10px 0;
+    }
+    .project .location{
+        font-weight: 500;
+        padding-bottom:10px;
+    }
+    .project .item{
+        position: relative;
+    }
+    .project .item::before{
+        position: absolute;
+        width:13px;
+        height: 13px;
+        background-color: #000;
+        content: '';
+        border-radius: 50%;
+        left: -37px;
+    }
+
+    </style>
+    </head>
+    <body>
+        <div class="container">
+           <div class="avatar">
+            <img src="avatar2.jpg" alt="">
+           </div>
+           <div class="name">
+                <h1>NGUYEN TIEN TRUNG</h1>
+                <div class="specialize">Frond-End Developer</div>
+                <ul class="contact">
+                    <li>
+                        <span>P</span> +84352447642
+                    </li>
+                    <li>
+                        <span>E</span> thihachcf@gmail.com
+                    </li>
+                    <li>
+                        <span>G</span> github.com/uncletientrung
+                    </li>
+                </ul>
+           </div>
+           <div class="info">
+                <ul>
+                    <li>Đến từ <b>Hồ Chí Minh</b> - Việt Nam</li>
+                    <li>16/05/2005</li>
+                    <li>Đại học Sài Gòn</li>
+                </ul>
+           </div>
+           <div class="intro">
+            <h2>GIỚI THIỆU BẢN THÂN</h2>
+            Tôi là Trung. Tôi yêu thích công nghệ và luôn tìm kiếm cơ hội để phát triển bản thân. Tôi có khả năng làm việc độc lập cũng như làm việc nhóm hiệu quả. Ngoài ra, tôi còn có kỹ năng giải quyết vấn đề và tư duy sáng tạo. Tôi mong muốn được học hỏi và cống hiến trong môi trường chuyên nghiệp.
+           </div>
+           <div class="experience">
+            <h2>KINH NGHIỆM ĐI LÀM</h2>
+    
+            <div class="item">
+                <h4>Đi làm part-time</h4>
+                <div class="time">
+                   <span>2023 - 2024</span>
+                   <span>Bếp cho quán Thương ROOFTOP</span>
+                </div>
+                <div class="des">
+                    <span>2024 - 2025</span>
+                   <span>Trợ lý y khoa cho 1 phòng khám</span>
+                </div>
+            </div>
+    
+                <div class="item">
+                    <h4>Sinh viên</h4>
+                    <div class="time">
+                       <span>2023 - 2028</span>
+                       <span> Đại học sài gòn</span>
+                    </div>
+                    <div class="des">
+                        Sinh Viên khoa ngành công thông tin. <br>
+                        Chuyên ngành kỹ thuật phần mềm
+                    </div>
+                </div>
+                <h2 class="skills">
+                    KĨ NĂNG
+                </h2>
+                <ul>
+                    <li>HTML,CSS,Javascript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Git</li>
+                    <li>SQL</li>
+                </ul>
+                <h2 class="skills">
+                    NGÔN NGỮ
+                </h2>
+                <ul>
+                    <li>Tiếng Việt  
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </li>
+                    <li>English  
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                    </li>
+                </ul>
+    
+           </div>
+           <div class="project">
+            <h2>DỰ ÁN TỪNG LÀM</h2>
+            <div class="item">
+                <h4>Website bán đồ điện tử</h4>
+                <div class="time">
+                    2024
+                </div>
+                <div class="web">
+                    dungtq2k5.github.io/web1-project
+                </div>
+                <div class="location">
+                    Frond-end Developer, Tester
+                </div>
+                <div class="des">
+                    Dự án phát triển website bán hàng trực tuyến trong đồ án môn Lập trình Web và Ứng dụng. Website cho phép người dùng xem sản phẩm, thêm vào giỏ hàng và đặt hàng trực tuyến. Và thêm admin có thể tương tác với người dùng trực tiếp thông qua 1 tài khoản và 1 giao diện khác người mua.
+                    <ul>
+                        <li>Thiết kế và phát triển giao diện người dùng bằng HTML, CSS, JavaScript.</li>
+                        <li>Kiểm thử tính năng và tối ưu trải nghiệm người dùng.</li>
+                        <li>Đảm bảo website hoạt động ổn định trên các thiết bị khác nhau.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="item">
+                <h4>Mô hình cửa hàng sách trên (*Terminal*)</h4>
+                <div class="time">
+                    2024
+                </div>
+                <div class="web">
+                    github.com/Irthn1311/QLy-CuaHangSach-OOP
+                </div>
+                <div class="location">
+                    Back-end Developer, 
+                </div>
+                <div class="des">
+                    Dự án phát triển mô hình quản lý cửa hàng sách trên giao diện dòng lệnh (*Terminal*), giúp quản lý sách, đơn hàng và khách hàng một cách hiệu quả.
+                    <ul>
+                        <li>Phát triển chức năng quản lý sách, khách hàng và đơn hàng.</li>
+                        <li>Xây dựng hệ thống xử lý nghiệp vụ như thêm, sửa, xóa, tìm kiếm dữ liệu.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            
+            </div>
+           </div>
+        </div>
+        
+    </body>
+    </html>
+
